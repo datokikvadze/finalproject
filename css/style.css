@@ -1,0 +1,427 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.logo{
+    width: 130px;
+    height: 80px;
+}
+.container-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1700px;
+    width: 100%;
+    height: 75px;
+
+}
+.container-block1{
+    max-width: 1500px;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.ul-li{
+    color: #000000;
+    position: relative;
+    padding-right: 60px;
+    font-size: 30px
+    
+    
+}
+.ul-li::after{
+
+        color:rgb(246, 244, 244);
+        content: " ";
+        height: 2px;
+        width: 0%;
+        background-color: rgba(233, 206, 5, 0.993);
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        -webkit-transition: 1.5s;
+        -o-transition: 1.5s;
+        transition: 1.5s;
+}
+.ul-li:hover::after {
+    width: 65%;
+}
+.a{
+    position: relative;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 4s;
+         -o-transition-duration: 4s;
+            transition-duration: 4s;
+    -webkit-animation: home 5s ;
+            animation: home 5s ;
+}
+.fixed{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    z-index: 1;
+}
+
+
+ .bg-image{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/A_black_background.jpg);
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    height: 800px;
+    
+
+}
+.bg-image1{
+    background-image: url(https://img.freepik.com/premium-photo/sci-fi-futuristic-studio-stage-dark-room-space-station-with-glowing-neon-lights-background_41470-4662.jpg);
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.burger-bar{
+    display: none;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+.image{
+     max-width: 600px;
+     width: 100%;
+     margin-left: 60px;
+}
+.image1{
+    max-width: 600px;
+    width: 100%;
+    height: 337px;
+    height: 100%;
+    
+}
+.image-div1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.title1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    margin: 100px 0px 0px 100px;
+    color: lightseagreen;
+
+}
+.mercedes{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+    color: turquoise;
+    margin-top: 10px;
+}
+.gle-div{
+    margin-left: 50px;
+    max-width: 600px;
+    width: 100%;
+}
+.discription{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width:1200px;
+    width: 100%;
+}
+.text1{
+    font-family: 'Alegreya', serif;
+    margin-left: 140px;
+    color:black;
+
+}
+.name{
+    margin-left: 150px;
+    font-size: 20px ;
+    color: rgb(15, 18, 21);
+}
+.price{
+font-family: 'Caveat', cursive;
+font-size: 30px;
+margin-left: 100px;
+margin-bottom: 15px;
+color: aquamarine;
+
+}
+.buy{
+    height: 50px;
+    background-color: blue;
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    border-radius: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.sell{
+    color: aliceblue;
+}
+
+.image3{
+    height: 400px;
+    max-width: 600px;
+    width: 100%;
+}
+.text2{
+    max-width: 600px;
+    width: 100%;
+    font-family: 'Alegreya', serif;
+    color: blanchedalmond;
+
+}
+.title2{
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: cornsilk;
+}
+.name2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: aquamarine;
+}
+.readmore{
+    height: 50px;
+    background-color: blue;
+    width: 90px;
+    border-radius: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.main-div{
+    max-width: 1400px;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+}
+.box2{
+    max-width: 700px;
+    margin-left: 70px;
+}
+.image4{
+    height: 400px;
+    max-width: 600px;
+    width: 100%;
+}
+.read{
+    color: #fff;
+}
+.price2{
+    color:aquamarine;
+   font-family: 'Caveat', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image11{
+   max-width: 1200px;
+   width: 100%;
+   position: absolute;
+}
+.image7{
+    display: none;
+}
+.text3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+.text4{
+    font-size: 20px;
+    position: absolute;
+    color: beige;
+    margin-left: 30px;
+    margin-top: 60px;
+    max-width: 350px;
+    width: 100%;
+}
+.box3{
+    position: relative;
+    margin: 0 auto;
+}
+.wraper{
+    max-width: 1400px;
+    width: 80%;
+   margin-left: 200px;
+   height: 700px;
+}
+.title3{
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: black;
+}
+.contact{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    margin-left: 150px;
+    color:#f5efef;
+}
+.call{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color: rgb(250, 244, 244);
+    margin-top: 60px;
+}
+.email{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color:rgb(255, 254, 254);
+
+}
+.adress{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color:rgb(255, 251, 251);
+
+}
+.map{
+    max-width: 450px;
+    margin-left: 120px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.icon{
+    margin-left: 150px;
+    color: crimson;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.label{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 170px;
+    max-width: 500px;
+    width: 100%;
+}
+.input-element{
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    background-color: black;
+}
+.label1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 30px;
+}
+.foot-displey{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.label-displey{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-pack: end; 
+        -ms-flex-pack: end; 
+            justify-content: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+}
+.textarea-element{
+    resize: none;
+    max-width: 430px;
+    width: 100%;
+    height: 150px;
+    margin-left: 170px;
+    margin-top: 50px;
+    background-color: black;
+    color: #fff;
+}
+.textarea{
+    max-width: 430px;
+    width: 100%;
+}
+.comment{
+    margin-left: 170px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color:#fff;
+}
+#submit{
+    margin-left: 170px;
+    margin-top: 65px;
+    max-width: 241px;
+    width: 100%;
+    height: 60px;
+    color:#fff;
+    background-color: #FF4900;
+    cursor: pointer;
+    border-radius: 20px;
+}
